@@ -1,6 +1,6 @@
 {
   "name": "nuxt-tailwind-heroicons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nuxt.js package for Tailwind Heroicons",
   "main": "index.js",
   "keywords": [
