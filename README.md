@@ -8,9 +8,9 @@ Use easily the awesome library [Heroicons](https://heroicons.com/) in your Nuxt 
 
 Install by running the following command with your favorite package manager
 ```bash
-npm install --save nuxt-heroicons 
+npm install --save nuxt-tailwind-heroicons 
 or
-yarn install --save nuxt-heroicons
+yarn install --save nuxt-tailwind-heroicons
 ```
 
 ## Configuration
@@ -21,7 +21,7 @@ For Nuxt 3
 ```javascript
 export default defineNuxtConfig({
   modules: [
-    'nuxt-heroicons/index'
+    'nuxt-tailwind-heroicons/index'
   ]
 })
 ```
@@ -29,7 +29,7 @@ For Nuxt 2
 ```javascript
 export default {
   buildModules: [
-    'nuxt-heroicons'
+    'nuxt-tailwind-heroicons'
   ]
 }
 ```

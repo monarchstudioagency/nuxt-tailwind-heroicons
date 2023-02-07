@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-heroicons",
+  "name": "nuxt-tailwind-heroicons",
   "version": "1.0.0",
   "description": "Nuxt.js package for Tailwind Heroicons",
   "main": "index.js",
@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monarchstudioagency/nuxt-heroicons.git"
+    "url": "git+https://github.com/monarchstudioagency/nuxt-tailwind-heroicons.git"
   },
   "bugs": {
-    "url": "https://github.com/monarchstudioagency/nuxt-heroicons/issues"
+    "url": "https://github.com/monarchstudioagency/nuxt-tailwind-heroicons/issues"
   },
-  "homepage": "https://github.com/monarchstudioagency/nuxt-heroicons#readme"
+  "homepage": "https://github.com/monarchstudioagency/nuxt-tailwind-heroicons#readme"
 }
