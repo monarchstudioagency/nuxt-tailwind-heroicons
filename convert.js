@@ -61,6 +61,6 @@ async function setData() {
 
         i++;
 
-        console.log(`${i}/${fileNumber}`);
+        //console.log(`${i}/${fileNumber}`);
     }
 }

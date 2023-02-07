@@ -1,48 +1,57 @@
-# Usage
+# Nuxt Heroicons
 
-Install the package :
-`npm i nuxt-heroicons`
+> **Heroicons version used : v2.0.14**  
 
-After in `nuxt.config.[js, ts]` add :
+Use easily the awesome library [Heroicons](https://heroicons.com/) in your Nuxt project. (Nuxt 2 & Nuxt 3 compatible).
 
+## Install
+
+Install by running the following command with your favorite package manager
+```bash
+npm install --save nuxt-heroicons 
+or
+yarn install --save nuxt-heroicons
+```
+
+## Configuration
+
+Add the package in `nuxt.config.[js, ts]`
+
+For Nuxt 3
 ```javascript
-/*
-  Nuxt 3
-*/
 export default defineNuxtConfig({
   modules: [
-    //...
-    'tw-icons/index'
-  ],
+    'nuxt-heroicons/index'
+  ]
 })
-
-/*
-  Nuxt 2
-*/
+```
+For Nuxt 2
+```javascript
 export default {
   buildModules: [
-    //...
-    'tw-icons'
-  ],
+    'nuxt-heroicons'
+  ]
 }
 ```
 
-Once done you can call the heroicons.
+## Usage
+
+Prefix of icons is ````<hero-````. You can use it at :
 
 ```html
-<hero-type-name />
+<hero-type-name/>
 ```
 
-- "type" is equal to : solid, outline or mini
-- "name" is equal to the icon name separate with "-"
+- ```type``` can be : "solid", "outline" or "mini"
+- ```name``` is equal to the icon name separate with "-"
 
-You can see all the icons [here](https://heroicons.com/).
+You can see all icons' name [here](https://heroicons.com/).
 
 ## Exemple
 
 ```html
 <template>
-  <div class="section">
+  <section>
     <!-- Outline -->
     <hero-outline-academic-cap />
     
@@ -51,8 +60,14 @@ You can see all the icons [here](https://heroicons.com/).
     
     <!-- Mini -->
     <hero-mini-academic-cap />
-  </div>
+  </section>
 </template>
 ```
 
-And now enjoy ! 🚀
+### And now enjoy ! 🚀
+
+## Contribute
+Open a pull request or issue if you have any recommendation.
+
+## Licence
+This project is licensed under the terms of the MIT open source license. Please refer to LICENSE for the full terms.

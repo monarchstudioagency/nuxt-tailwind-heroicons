@@ -1,10 +1,10 @@
 {
   "name": "nuxt-heroicons",
   "version": "1.0.0",
-  "description": "A NuxtJS package for tailwind heroicons",
+  "description": "Nuxt.js package for Tailwind Heroicons",
   "main": "index.js",
   "keywords": [
-    "NuxtJS",
+    "Nuxt.js",
     "Nuxt",
     "Icons",
     "Heroicons",
