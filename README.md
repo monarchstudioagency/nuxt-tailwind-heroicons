@@ -21,7 +21,7 @@ For Nuxt 3
 ```javascript
 export default defineNuxtConfig({
   modules: [
-    'nuxt-tailwind-heroicons/index'
+    'nuxt-tailwind-heroicons'
   ]
 })
 ```
@@ -47,6 +47,16 @@ Prefix of icons is ````<hero-````. You can use it at :
 
 You can see all icons' name [here](https://heroicons.com/).
 
+___
+
+You can use Tailwind CSS class directly on component
+
+```html
+<hero-outline-x-mark class="w-4 h-4 text-slate-600"/>
+```
+
+___
+
 ## Exemple
 
 ```html
@@ -64,7 +74,7 @@ You can see all icons' name [here](https://heroicons.com/).
 </template>
 ```
 
-### And now enjoy ! 🚀
+## And now enjoy ! 🚀
 
 ## Contribute
 Open a pull request or issue if you have any recommendation.
